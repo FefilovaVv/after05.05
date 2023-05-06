@@ -1,0 +1,11 @@
+* {margin: 0;}
+video {width: 50%;
+position: fixed;
+padding-left: 350px;}
+h1{position: relative;
+text-align: center;
+padding-top: 200px;
+font-size: 40px;}
+ul {list-style: none;
+    margin-top: 50px;
+}
