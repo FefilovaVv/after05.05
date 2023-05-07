@@ -3,40 +3,57 @@
     30deg,
     #333333,
     #333333 25px,
-    #000000 25px,
-    #000000 50px
+    #3d3d3d 25px,
+    #3d3d3d  50px
   );
-height: 700px;}
+height: 1500px;}
 
 .conteiner{position: relative;
 width: 1000px;
 margin: auto;
 background-color: white;
 height: 700px;
-border-left: 60px solid greenyellow;
-border-radius: 50px 0px 0 50px;}
+border-left: 60px solid rgb(110, 184, 141);
+border-bottom: 10px solid rgb(110, 184, 141);
+border-radius: 70px 0px 0 70px;
+margin-bottom: 15px;}
 
 video{position: absolute;
-height: 700px;}
+height: 700px;
+border-radius: 0px 0px 0 15px;}
 
 .text{position: absolute;
 right: 40px;
 top: 250px;
 }
 H1{font-size: 60px;
-margin-left: 90px;}
-ul{font-size: 20px;
+margin-left: 95px;}
+.Main>ul{font-size: 20px;
     margin-top: 30px;
-    margin-left: 390px;
-    padding-left: 15px;
+    margin-left: 393px;
+    padding-left: 10px;
 list-style: none;
-border-left: 3px solid greenyellow;}
-span {color: rgb(224, 25, 224);}
-p {
+border-left: 3px solid rgb(247,197,198);}
+span {color: rgb(247,197,198);
+    text-shadow: 1px 0 10px #000
+    ;}
+.Main>p {
     margin: 20px 80px 0px 600px;
     padding: 7px;
-border: 3px solid ;
-border-color: ;
+border: 3px solid rgb(85, 138, 107);
 border-radius: 20px;
-background-color:  black;
+background-color:  rgb(110, 184, 141);
 color: white;}
+.about>img{height: 100px;
+margin: 0 0 150px 150px;}
+.hi{position: absolute;
+    transform: rotate(90deg);
+    left: -90px;
+    top: 320px;
+    font-size: 35px;
+}
+.about>ul{display: inline-block;
+    width: 500px;
+    font-size: 25px;
+margin: 150px 50px;
+list-style-image: url('cuteHi3.webp');}
