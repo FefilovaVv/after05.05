@@ -1,4 +1,26 @@
 * {margin: 0;}
+*{font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;}
+
+
+/* НАВИГАЦИЯ */
+.nav-img{width: 2.5rem;}
+.nav-links{display: inline-block;
+height: 1rem;
+}
+.nav-links a:hover {background-color: rgb(247,197,198)}
+.nav-wrap{display: flex;
+align-items: center;
+justify-content: right;
+background-color: rgb(110, 184, 141);;}
+.nav-wrap a{
+    color: white;
+    padding: 3px;
+text-decoration: none;
+border-radius: 30px;
+padding: 7px;
+}
+
+
 .grey{background: repeating-linear-gradient(
     30deg,
     #333333,
@@ -18,9 +40,9 @@ border-left: 60px solid rgb(110, 184, 141);
 margin-bottom: 15px;}
 
 video{position: absolute;
-height: 694px;
-border: 3px solid;
-border-color: rgb(85, 138, 107) rgb(247,197,198);
+height: 650px;
+/* border: 3px solid;
+border-color: rgb(85, 138, 107) rgb(247,197,198); */
 }
 
 .text{position: absolute;
@@ -29,30 +51,53 @@ top: 250px;
 }
 H1{font-size: 60px;
 margin-left: 95px;}
-.Main>ul{font-size: 20px;
+
+
+
+.Main>ul{
+    font-size: 20px;
     margin-top: 30px;
     margin-left: 410px;
     padding: 10px;
 list-style: none;
-background-color: #b9b9b9;
-border: 3px solid;
-border-color:  rgb(85, 138, 107) rgb(247,197,198);}
+background-color: #d7d6d6;
+/* border: 3px solid;
+border-color:  rgb(85, 138, 107) rgb(247,197,198); */}
 
 span {color: rgb(247,197,198);
-    text-shadow: 1px 0 10px #000
-    ;}
-.Main>p {
-    margin: 0px 0 0px 700px;
-    padding: 7px;
-border: 3px solid;
-background-color: rgb(85, 138, 107);
-border: 3px solid;
-border-color:  rgb(85, 138, 107) rgb(247,197,198);}
+    text-shadow: 1px 0 10px #000;}
+
+.conteiner-btn{position: absolute;
+}
+.info{position: absolute;
+    width: 4rem;
+    height: 4rem;
+background-color: rgb(110, 184, 141);
+border-radius: 90px;
+border: none;
+/* border: 3px solid;
+border-color:  rgb(85, 138, 107) rgb(247,197,198); */}
+
+.info:hover {background-color:  rgb(247,197,198);}
+.a{top: 34rem;
+left: 30rem;}
+.b{top: 30rem;
+    left: 38rem;}
+.c{top: 33rem;
+    left: 43rem;}
+.d{top: 26rem;
+    left: 50rem;}
+.e{top: 25rem;
+    left: 58rem;}
+
 
 
 /* обо мне 1 */
 
-.about{padding-top: 100px;}
+.about {padding-top: 100px;}
+.about2 a{color: white;
+font-size: 15px;}
+.about2 ul{list-style: inside;}
 
 .hi{position: absolute;
     transform: rotate(90deg);
